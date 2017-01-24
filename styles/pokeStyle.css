@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+* {
+  font-family: 'Bangers', cursive;
+}
+
+.outer-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 175px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.storeButton {
+  margin-top: 100px;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: white;l
+}
+
+.return-home-btn {
+  font-size: 30px;
+}
+
+.poke-list-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-monster-title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.poke-monster-btn {
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+.poke-list {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+.single-outer-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-poke {
+  color: red;
+  font-size: 60px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  animation-name: party;
+  animation-duration: .2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes party {
+  0% {color: red}
+  25% {color: purple}
+  50% {color: orange}
+  75% {color: blue}
+  100% {color: green};
+}
+
+.go-home-btn {
+  font-size: 20px;
+  padding: 10px 20px;
+}

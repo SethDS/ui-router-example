@@ -1,0 +1,14 @@
+<section>
+  <button class='return-home-btn' ui-sref='home'>Home</button>
+  <div class='poke-list-wrap'>
+    <div class="poke-monster-title">Poke-Monsters</div>
+    <button ng-click='getPokes()' class='poke-monster-btn'>Show me da poke-monsters!</button>
+    <p style='font-size: 20px'>( click on a poke . . . )</p>
+    <div ui-sref='single({name: poke.name})' ng-repeat='poke in pokes' class="poke-list">
+      {{poke.name}}
+    </div>
+  </div>
+
+
+
+</section>
